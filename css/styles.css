@@ -1,77 +1,102 @@
+/* Gaya umum */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
     margin: 0;
     padding: 0;
+    background-color: #f5f5f5;
 }
 
+/* Header */
 header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 0;
+    background-color: #f3a1ef;
+    color: #050505;
     text-align: center;
+    padding: 2rem 0;
 }
 
-main {
-    padding: 20px;
+header h1 {
+    font-size: 1.5rem;
+    margin: 0;
 }
 
-h1 {
-    margin-bottom: 10px;
+/* Bagian pengantar */
+.intro {
+    margin: 2rem 1rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.intro h4 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* Bagian konversi */
+.conversion-section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h3 {
-    color: #4CAF50;
-}
-
-h4 {
-    margin-bottom: 20px;
-}
-
-.conversion-section, .calculation-section, .info-section {
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    margin-bottom: 20px;
-    padding: 20px;
+    font-size: 1.2rem;
+    margin: 0 0 1rem 0;
 }
 
 textarea {
     width: 100%;
-    height: 50px;
-    margin-top: 10px;
-    padding: 10px;
+    padding: 0.5rem;
     border: 1px solid #ccc;
     border-radius: 4px;
-    resize: vertical;
-}
-
-textarea#calculationSteps {
-    height: 100px;
+    margin-top: 0.5rem;
 }
 
 .button-group {
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #69035cb0;
+    color: #ffffff;
     border: none;
-    color: white;
-    padding: 10px 20px;
-    margin: 5px;
     border-radius: 4px;
+    padding: 0.5rem 1rem;
     cursor: pointer;
-    transition: background-color 0.3s;
+    margin-right: 0.5rem;
 }
 
-button:hover {
-    background-color: #45a049;
+/* Bagian kalkulasi */
+.calculation-section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-button:active {
-    transform: scale(0.98);
+/* Bagian informasi */
+.info-section {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: 0 0 1rem 0;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 1rem 0;
 }
 
 .subject-info {
